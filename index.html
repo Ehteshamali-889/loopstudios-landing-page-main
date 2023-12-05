@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="leader.css">
+  <link rel="stylesheet" href="creation.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+  <div class="bgmain">
+    <header class="loopheader">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+      <ul class="loopnav">
+        <li class="navlisingle">About</li>
+        <li class="navlisingle">Careers</li>
+        <li class="navlisingle">Events</li>
+        <li class="navlisingle">Products</li>
+        <li class="navlisingle">Support</li>
+      </ul>
+      <img src="./images/icon-hamburger.svg" alt="hamburger" class="icon-hamburger" onclick="toggleMobileMenu()">
+      <img src="./images/icon-close.svg" alt="closeicon" class="closeicon" onclick="toggleMobileMenu()">
+    </header>
+    <div class="mobilemenu">
+      <ul class="navmobilemenu">
+        <li class="navlimobile">About</li>
+        <li class="navlimobile">Careers</li>
+        <li class="navlimobile">Events</li>
+        <li class="navlimobile">Products</li>
+        <li class="navlimobile">Support</li>
+      </ul>
+    </div>
+    <p class="loopmainheading">Immersive<br> experiences<br> that deliver</p>
+  </div>
+
+  <section class="leadersection">
+    <img src="./images/desktop/image-interactive.jpg" alt="manwearingvr" class="original-interactive">
+    <img src="./images/mobile/image-interactive.jpg" alt="manwearingvr" class="mobile-interactive">
+    <article class="leaderright">
+      <h2 class="leaderheading">The leader in interactive VR</h2>
+      <p class="leaderpara">Founded in 2011, Loopstudios has been producing world-class<br> virtual reality
+        projects for some of the best companies around the<br> globe. Our award-winning
+        creations have transformed<br> businesses through digital experiences that bind
+        to their brand.</p>
+      <p class="leaderparamobile">Founded in 2011, Loopstudios has been<br> producing world-class virtual reality<br>
+        projects for some of the best companies<br> around the globe. Our award-winning<br>
+        creations have transformed businesses<br> through digital experiences that bind
+        to<br> their brand.</p>
+    </article>
+  </section>
+  <section class="creations">
+    <article class="topcreation">
+      <h2 class="creationheading">Our creations</h2>
+      <button class="btnall">See all</button>
+    </article>
+
+    <article class="creationcontainer">
+      <article class="singlecreation deepearth">
+        <div class="deepearth-overlay"></div>
+        <h2 class="singlhead">Deep<br>earth</h2>
+      </article>
+
+      <article class="singlecreation night">
+        <h2 class="singlhead">Night<br>arcade</h2>
+      </article>
+
+      <article class="singlecreation soccer">
+        <h2 class="singlhead">Soccer<br>team VR</h2>
+      </article>
+
+      <article class="singlecreation grid">
+        <h2 class="singlhead">The<br>grid</h2>
+      </article>
+    </article>
+    <article class="creationcontainer mobilemargin">
+      <article class="singlecreation above">
+        <h2 class="singlhead">From up<br>above VR</h2>
+      </article>
+
+      <article class="singlecreation pocket">
+        <h2 class="singlhead">Pocket<br>borealis</h2>
+      </article>
+
+      <article class="singlecreation curiosity">
+        <h2 class="singlhead">The<br>curiosity</h2>
+      </article>
+
+      <article class="singlecreation fisheye">
+        <h2 class="singlhead">Make it<br>fisheye</h2>
+      </article>
+    </article>
+
+    <article class="mobilesection">
+      <button class="btnallmobile">See all</button>
+    </article>
+
+
+  </section>
+  <footer class="mainfooter">
+    <article class="topfooter">
+      <img src="./images/logo.svg" alt="footerlogo">
+      <div class="icon-footer">
+        <img src="./images/icon-facebook.svg" alt="icon-facebook">
+        <img src="./images/icon-twitter.svg" alt="icon-twitter">
+        <img src="./images/icon-pinterest.svg" alt="icon-pinterest">
+        <img src="./images/icon-instagram.svg" alt="icon-instagram">
+      </div>
+    </article>
+    <article class="bottomfooter">
+      <ul class="footernav">
+        <li>About</li>
+        <li>Careers</li>
+        <li>Events</li>
+        <li>Products</li>
+        <li>Support</li>
+      </ul>
+      <p class="copyright">© 2021 Loopstudios. All rights reserved. </p>
+    </article>
+  </footer>
+  <footer class="mainfootermobile">
+    <article class="topfootermobile">
+      <img src="./images/logo.svg" alt="footerlogo">
+
+    </article>
+    <article class="bottomfootermobile">
+      <ul class="footernavmobile">
+        <li class="footernavli">About</li>
+        <li class="footernavli">Careers</li>
+        <li class="footernavli">Events</li>
+        <li class="footernavli">Products</li>
+        <li class="footernavli">Support</li>
+      </ul>
+      <div class="icon-footermobile">
+        <img src="./images/icon-facebook.svg" alt="icon-facebook">
+        <img src="./images/icon-twitter.svg" alt="icon-twitter">
+        <img src="./images/icon-pinterest.svg" alt="icon-pinterest">
+        <img src="./images/icon-instagram.svg" alt="icon-instagram">
+      </div>
+      <p class="copyrightmobile">© 2021 Loopstudios. All rights reserved. </p>
+    </article>
+  </footer>
+  <!-- <div id="zoom-indicator">Zoom Level: <span id="zoom-value"></span></div> -->
+
+  <script>
+    function toggleMobileMenu() {
+      var mobileMenu = document.querySelector('.mobilemenu');
+      var closeicon = document.querySelector('.closeicon');
+      var hamburger = document.querySelector('.icon-hamburger');
+
+      if (mobileMenu.style.display === 'none' || mobileMenu.style.display === '') {
+        // Display the mobile menu and close icon, hide the hamburger
+        mobileMenu.style.display = 'flex';
+        closeicon.style.display = 'flex';
+        hamburger.style.display = 'none';
+      } else {
+        // Hide the mobile menu and close icon, display the hamburger
+        mobileMenu.style.display = 'none';
+        closeicon.style.display = 'none';
+        hamburger.style.display = 'flex';
+      }
+    }
+
+    function handleViewportChange() {
+      var mobileMenu = document.querySelector('.mobilemenu');
+      var closeicon = document.querySelector('.closeicon');
+      var hamburger = document.querySelector('.icon-hamburger');
+
+      // Check if viewport width is greater than a certain threshold (e.g., 768px)
+      var isDesktopLayout = window.matchMedia("(min-width: 768px)").matches;
+
+      if (isDesktopLayout) {
+        // Hide hamburger on desktop
+        hamburger.style.display = 'none';
+
+        // Ensure mobile menu and close icon are hidden
+        mobileMenu.style.display = 'none';
+        closeicon.style.display = 'none';
+      } else {
+        // Show hamburger on mobile
+        hamburger.style.display = 'flex';
+      }
+    }
+
+    // Listen for changes in viewport width
+    window.addEventListener('resize', handleViewportChange);
+
+    // Initial check on page load
+    window.addEventListener('load', function () {
+      handleViewportChange();
+    });
+
+
+  </script>
+  <!-- About
+  Careers
+  Events
+  Products
+  Support
+
+  Immersive experiences that deliver
+
+  The leader in interactive VR
+
+  Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning 
+  creations have transformed businesses through digital experiences that bind 
+  to their brand.
+
+  Our creations
+
+  See all
+
+  Deep earth
+  Night arcade
+  Soccer team VR
+  The grid
+  From up above VR
+  Pocket borealis
+  The curiosity
+  Make it fisheye
+
+  About
+  Careers
+  Events
+  Products
+  Support
+
+  © 2021 Loopstudios. All rights reserved. -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="main.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
