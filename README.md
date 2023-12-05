@@ -2,6 +2,7 @@
 
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
+[View Output](https://loopstudio-layout-web.netlify.app/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
